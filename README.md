@@ -15,6 +15,7 @@ The goals / steps of this project are the following:
 [sim_right]: ./Images/sim_right.jpg "Right"
 [sim_normal]: ./Images/sim_normal.jpg "Normal"
 [sim_mirror]: ./Images/sim_mirror.jpg "Flipped"
+[sim_recover]: ./Images/sim_recovering.png "Recover"
 
 
 ### 1. Contents
@@ -25,7 +26,7 @@ My project includes the following files:
 * **NN_generator**: this notebook can also train a model. It uses a data generator with an adjustable batch size, making it viable without a lot of GPU power or for huge datasets but it is considerably slower.  
 * **drive.py**: for driving the car in autonomous mode
 * **model.h5**: contains a trained convolution neural network 
-* [Video](https://vimeo.com/229937631) of the car driving autonomously
+* **Videos**: [Driver View](https://vimeo.com/229937631) [Bird Eye View](https://vimeo.com/229947155)
 
 ### Model Architecture and Training Strategy
 
@@ -76,7 +77,7 @@ When I was training the model it was very clear that not overfitting was extreme
 
 It was important to teach the car that was a good idea to try to stay centered on the road, the intuitive method for that is to drive as centered as possible when recording the drive data. Still how is the car supposed to fix its position if by chance it ended up aproaching the corners? The solution was record many examples where I would only record going from the corner of the road to the center as shown in the schematic bellow.
 
-![alt text][sim_left] ![alt text][sim_recovering]
+![alt text][sim_recover]
 
 
 #### 5. Model parameter tuning
