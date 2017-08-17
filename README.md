@@ -10,11 +10,11 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [sim]: ./Images/sim.png "Simulator"
-[sim_center]: ./examples/sim_center.jpg "Center"
-[sim_left]: ./examples/sim_left.jpg "Left"
-[sim_right]: ./examples/sim_right.jpg "Right"
-[sim_normal]: ./examples/sim_normal.jpg "Normal"
-[sim_mirror]: ./examples/sim_mirror.jpg "Flipped"
+[sim_center]: ./Images/sim_center.jpg "Center"
+[sim_left]: ./Images/sim_left.jpg "Left"
+[sim_right]: ./Images/sim_right.jpg "Right"
+[sim_normal]: ./Images/sim_normal.jpg "Normal"
+[sim_mirror]: ./Images/sim_mirror.jpg "Flipped"
 
 
 ### 1. Contents
