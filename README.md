@@ -9,21 +9,15 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+[sim]: ./Images/sim.png "Simulator"
+[sim_center]: ./examples/sim_center.jpg "Center"
+[sim_left]: ./examples/sim_left.jpg "Left"
+[sim_right]: ./examples/sim_right.jpg "Right"
+[sim_normal]: ./examples/sim_normal.jpg "Normal"
+[sim_mirror]: ./examples/sim_mirror.jpg "Flipped"
 
-## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
 
----
-###Files Submitted & Code Quality
-
-### 1. Intro
+### 1. Contents
 
 My project includes the following files:
 * **Intro.ipynb**: this notebook contains the step by step of my aproach, showing the manipulation of the images, enhancement of the data and three learning models
@@ -31,6 +25,7 @@ My project includes the following files:
 * **NN_generator**: this notebook can also train a model. It uses a data generator with an adjustable batch size, making it viable without a lot of GPU power or for huge datasets but it is considerably slower.  
 * **drive.py**: for driving the car in autonomous mode
 * **model.h5**: contains a trained convolution neural network 
+* [Video](https://vimeo.com/229937631) of the car driving autonomously
 
 ### Model Architecture and Training Strategy
 
@@ -83,7 +78,7 @@ It was important to teach the car that was a good idea to try to stay centered o
 
 #### 5. Model parameter tuning
 
-The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 25).
+The model used an adam optimizer, so the learning rate was not tuned manually.
 
 #### 6. Intro Notebook
-For more information and details of my procedures check the notebook [Intro]().
+For more information and details of my procedures check the notebook [Intro](Intro.ipynb).
