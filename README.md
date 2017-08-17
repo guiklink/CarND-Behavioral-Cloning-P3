@@ -26,7 +26,7 @@ My project includes the following files:
 * **NN_generator**: this notebook can also train a model. It uses a data generator with an adjustable batch size, making it viable without a lot of GPU power or for huge datasets but it is considerably slower.  
 * **drive.py**: for driving the car in autonomous mode
 * **model.h5**: contains a trained convolution neural network 
-* **Videos**: [Driver View](https://vimeo.com/229937631) [Bird Eye View](https://vimeo.com/229947155)
+* **Videos**: [Driver View](https://vimeo.com/229937631), [Bird Eye View](https://vimeo.com/229947155)
 
 ### Model Architecture and Training Strategy
 
