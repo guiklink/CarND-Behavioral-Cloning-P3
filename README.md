@@ -29,7 +29,7 @@ My project includes the following files:
 
 ### Model Architecture and Training Strategy
 
-In the notebook [Intro.ipynb](Intro.ipynb) I started by trying a linear NN and the [LeNet NN](). However my design of choice was based on the design used by NVIDIA self-driving cars team and can be seen bellow.
+In the notebook [Intro.ipynb](Intro.ipynb) I started by trying a linear NN and the [LeNet NN](https://github.com/guiklink/CarND-Traffic-Sign-Classifier-Project). However my design of choice was based on the design used by NVIDIA self-driving cars team and can be seen bellow.
 
 | Layer         	               | 
 |:--------------------------------:|
@@ -54,14 +54,17 @@ In the notebook [Intro.ipynb](Intro.ipynb) I started by trying a linear NN and t
 ### 2. Data
 
 The data was collected by recording various laps using a Unit 3D simulator showed bellow:
+
 ![alt text][sim]
 
 The car is driven in a bird view perspective, still tha images are captured by three cameras mounted on the car.
+
 ![alt text][sim_left] ![alt text][sim_center] ![alt text][sim_right]
 
 In adition for each frame is also captured the turning angle, speed and braking values of the car.
 
 To enhance the amount of data available and improve generalizatrion, for each image I also added a mirror (flipped) image of itself.
+
 ![alt text][sim_normal] ![alt text][sim_mirror]
 
 
